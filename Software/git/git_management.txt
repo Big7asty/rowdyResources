@@ -1,0 +1,47 @@
+#####################################################
+#     This is a cheatsheet for getting repos        #
+#                 pushed to github                  #
+#                     Big7asty                      #
+#####################################################
+
+# --------------------------------------------------#
+#                  Initial setup                    #
+# --------------------------------------------------#
+
+# Check your version of git
+git --version
+
+# Set your git username
+git config --global user.name <Github name>
+
+# Check your username
+git config --global user.name
+
+# Set your email
+git config --global user.email <email>
+git config --global user.email
+
+# Check your email
+git config --global list
+
+# Check your git variables
+git config --global --list
+
+# --------------------------------------------------#   
+#                  Repo management                  #                                                                                                                                                        
+# --------------------------------------------------#                                                                                                                                                        
+                                                                                                                                                                                                             
+# Initalise a repo, adds a .git file for repo management                                                                                                                                                     
+git init                                                                                                                                                                                                     
+                                                                                                                                                                                                             
+# Check the status of folders/files as to what has or hasn't been committed                                                                                                                                  
+git status                                                                                                                                                                                                   
+
+# Add folders/files for committment
+git add <file/folder>
+
+# Compile the repo for push to github, -m switch is for comment
+git commit -m "Inital commit"
+
+# Push the repo to Github (Will ask you to authenticate)
+git push
